@@ -214,6 +214,7 @@ main > section{
   justify-content: center;
   align-items: center;
   margin: 130px auto 256px;
+  text-align: center;
 }
 
 /* responsive media query */
@@ -247,6 +248,27 @@ main > section{
 
   #experience-badge{
     margin: 20px auto -20px;
+    padding: 10px;
+  }
+
+  .featured-architect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -90px;
+  }
+
+  #experience-year{
+    font-size: 2rem;
+  }
+
+  #experience{
+    font-size: 1rem;
+  }
+
+  #footer-text{
+    text-align: center;
   }
 }
 
